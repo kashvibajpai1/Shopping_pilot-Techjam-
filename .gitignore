@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+results.json
+*.log
+.pytest_cache/
+
+# Real 50k-item frozen catalog + derived caches: download via
+# scripts/download_catalog.py / rebuild via scripts/build_index.py.
+# Not redistributed here — see data/README.md.
+data/catalog.jsonl
+data/catalog.jsonl.gz
+data/embeddings.npy
+data/embeddings_meta.json
+data/releases/
+
+.venv/
+venv/

@@ -1,0 +1,14 @@
+# Core pipeline — required.
+numpy==2.4.6
+pydantic==2.13.5
+rank-bm25==0.2.2
+
+# Dev / test.
+pytest==9.1.1
+
+# Optional upgrades — the pipeline runs fully offline without these.
+# Uncomment to enable the higher-quality embedding backend
+# (TECHJAM_USE_SENTENCE_TRANSFORMERS=1) or the LLM reranker/router
+# escalation (TECHJAM_ENABLE_LLM=1). See README.md "Model & network policy".
+# sentence-transformers==3.3.1
+# anthropic==0.69.0
