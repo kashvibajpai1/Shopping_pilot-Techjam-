@@ -12,3 +12,7 @@ pytest==9.1.1
 # escalation (TECHJAM_ENABLE_LLM=1). See README.md "Model & network policy".
 # sentence-transformers==3.3.1
 # anthropic==0.69.0
+
+# Local demo UI for recording — not part of the evaluated Agent pipeline.
+fastapi==0.115.6
+uvicorn==0.32.1
